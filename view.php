@@ -24,8 +24,8 @@ include_once 'dbconfig.php';
         </tr>
         <?php
         $sql="SELECT * FROM tbl_uploads";
-        $result_set=mysql_query($sql);
-        while($row=mysql_fetch_array($result_set))
+        $result = $db->query($sql);
+        while($row = $result->fetch_array())
         {
             ?>
             <tr>
