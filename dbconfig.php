@@ -6,9 +6,9 @@
  */
 $db = new mysqli(
     "eu-cdbr-azure-north-e.cloudapp.net", //Server Name
-    "b1fa144aa688ff", //Username
-    "4e96e436",
-    "db_pgo_cs7" ); //Database
+    "bcfb17955d26fa", //Username
+    "f5e7a502",
+    "database_ajafyfe" ); //Database
 /*
  * If database fails to connect - error message displays
  */
