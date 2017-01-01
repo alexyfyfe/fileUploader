@@ -1,8 +1,9 @@
 <?php
 
-$juice = "apple";
+$a = 0;
+$b = &$a;
+$b++;
 
-echo "I drank some $juice juice<br />";
-echo 'I drank some $juice juice<br />';
+echo '$a== ', $a, '<br />';
 
 ?>
