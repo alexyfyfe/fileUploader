@@ -6,7 +6,7 @@ foreach ($arr as $day){
     $day = 'hi';
 };
 
-while (list(, $val) = each($arr)){
+while (list(,$val) = each($arr)){
     echo "$val<br />\n";
 };
 
