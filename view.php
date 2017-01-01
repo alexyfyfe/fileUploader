@@ -14,7 +14,7 @@ include_once 'dbconfig.php';
 <div id="body">
     <table width="80%" border="1">
         <tr>
-            <th colspan="4">your uploads...<label><a href="index.php">upload new files...</a></label></th>
+            <th colspan="4">your uploads...<label><a href="index1.php">upload new files...</a></label></th>
         </tr>
         <tr>
             <td>File Name</td>
