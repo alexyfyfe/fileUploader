@@ -9,6 +9,7 @@ while (list(, $val) = each($arr)){
 }
 
 while (list(, $val) = each($arr)){
+    echo "hi";
     echo "$val<br />\n";
 }
 
