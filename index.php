@@ -1,7 +1,8 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: alexy
- * Date: 01/01/2017
- * Time: 16:42
- */
+
+$juice = 'apple';
+
+echo "I drank some $juice juice<br />";
+echo 'I drank some $juice juice<br />';
+
+?>
