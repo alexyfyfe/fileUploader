@@ -1,14 +1,18 @@
 <?php
 
-$cent = 10;
+$payroll = array(
+    123=>array("john smith", 10000.0),
+    456=>array("jane smythe", 12000.0)
+);
+payrise($payroll, 10.0);
+var_dump($payroll);
 
-static $coins_of_usa = array(1=>"penny", 5=>"nickel", 10=>"dime", 25=>"quarter", 50=>"half dollar", 100=>"dollar");
-
-foreach ($coins_of_usa as $x => $x_value){
-    if($cent == $x){
-        echo "$cent = $x_value";
+function payrise ($payroll, $rise){
+    foreach ($payroll as $id => $person){
+        foreach ($person as $name => $pay){
+            $pay = $pay*($rise/100+1);
+        }
     }
 }
-
 
 ?>
