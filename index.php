@@ -5,7 +5,7 @@ $payroll = array(
     456=>array("jane smythe", 12000.0),
     789=>array("jeremy smithers", 14000.0)
 );
-payrise($payroll, 10.0);
+$payroll = payrise($payroll, 10.0);
 var_dump($payroll);
 
 function payrise ($payroll, $rise){
