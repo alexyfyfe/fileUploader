@@ -8,13 +8,13 @@ $payroll = array(
 payrise($payroll, 10.0);
 var_dump($payroll);
 
-function payrise (&$payroll, $rise){
+function payrise ($payroll, $rise){
     foreach ($payroll as $id => $person){
         foreach ($person as $name => $pay){
             $person[$name] = $pay*($rise/100+1);
-            echo "$person[$name]";
         }
     }
+    return $payroll;
 }
 
 ?>
