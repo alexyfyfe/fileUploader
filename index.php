@@ -11,7 +11,7 @@ var_dump($payroll);
 function payrise (&$payroll, $rise){
     foreach ($payroll as $id => $person){
         foreach ($person as $name => $pay){
-            $pay = $pay*($rise/100+1);
+            $person["$name"] = $pay*($rise/100+1);
         }
     }
 }
