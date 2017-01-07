@@ -1,13 +1,11 @@
 <?php
 
-function do_something(&$arg)
+function incr_a($inc)
 {
-    $retval = $arg;
-    $arg = $arg + 1;
-    return $retval;
+    $a = $a + $inc;
 }
-$a = 3;
-$b = do_something($a);
-echo $a, " ", $b;
+$a = 0;
+incr_a(10);
+echo $a;
 
 ?>
