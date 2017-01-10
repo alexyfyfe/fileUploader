@@ -2,6 +2,7 @@
 
 function incr_a($y) {
     $x = $x + $y;
+    echo "$x";
 }
 $x = 0;
 $y = 0;
