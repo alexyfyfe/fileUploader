@@ -1,11 +1,12 @@
 <?php
 
-function incr_a($inc)
-{
-    $a = $a + $inc;
+function incr_a($y) {
+    $x = $x + $y;
 }
-$a = 0;
+$x = 0;
+$y = 0;
 incr_a(10);
 echo $a;
+echo $y;
 
 ?>
